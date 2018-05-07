@@ -1,0 +1,55 @@
+/*
+ * Colors
+ */
+
+
+/*
+ * Presenation
+ */
+#presentation
+	align-items: center
+	display: flex
+	justify-content: center
+	padding: 0.9em
+
+	&-container
+		@media only screen and (max-width: 767px)
+			display: grid
+
+	&-image
+		width: 190px
+		float: left
+		height: 150px
+		border-radius: 100%
+		overflow: hidden
+		@media only screen and (max-width: 767px)
+			width: 150px
+			height: 150px
+			margin: auto
+			border-radius: 100%
+			overflow: hidden
+			display: block
+
+
+	&-headline
+		float: right
+		font-size: 0.9
+		margin: 2em 0.3em
+		letter-spacing: .1em
+		@media only screen and (max-width: 767px)
+			margin: 0.7em
+			display: block
+
+	&-title
+		font-size: 3.5em
+		font-family: "Passion One"
+		@media only screen and (max-width: 767px)
+			text-align: center
+			font-size: 1.7em
+
+	&-subtitle
+		font-size: 2.5em
+		font-family: "Amatic SC"
+		@media only screen and (max-width: 767px)
+			font-size: 1.2em
+			text-align: center
